@@ -33,7 +33,7 @@
             "name": "kibbles-playtest-packet",
             "label": "Kibbles Playtest Packet",
             "system": "dnd5e",
-            "type": "Actor"
+            "type": "Item"
         }
     ]
 }
