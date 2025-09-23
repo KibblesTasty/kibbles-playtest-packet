@@ -1,0 +1,64 @@
+{
+    "id": "kibbles-playtest-packet",
+    "title": "Kibbles' Playtest Packet",
+    "description": "The FoundryVTT module for Kibbles' Playtest Packet",
+    "version": "0.1",
+    "compatibility": {
+        "minimum": "12",
+        "verified": "12.331"
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "4.1",
+                    "verified": "4.3"
+                }
+            }
+        ]
+    },
+    "authors": [
+        {
+            "name": "KibblesTasty",
+            "url": "https://kthomebrew.com"
+        }
+    ],
+    "url": "https://www.kthomebrew.com/",
+    "manifest": "https://github.com/KibblesTasty/kibbles-playtest-packet/releases/latest/download/module.json",
+    "download": "https://github.com/KibblesTasty/kibbles-playtest-packet/releases/download/v0.1/module.zip",
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        }
+    ],
+    "packs": [
+        {
+            "name": "kibbles-playtest-packet",
+            "label": "Kibbles Playtest Packet",
+            "system": "dnd5e",
+            "type": "Actor"
+        }
+    ],
+    "packFolders": [
+        {
+            "name": "KibblesTasty",
+            "sorting": "a",
+            "color": "#4169E1",
+            "folders": [
+                {
+                    "name": "Kibbles Playtest Packet",
+                    "sorting": "a",
+                    "color": "#CD5C5C",
+                    "packs": [
+                        "kcll-tables",
+                        "kcll-journals"
+                    ]
+                }
+            ]
+        }
+    ],
+}
