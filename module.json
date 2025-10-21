@@ -2,7 +2,7 @@
     "id": "kibbles-playtest-packet",
     "title": "Kibbles' Playtest Packet",
     "description": "The FoundryVTT module for Kibbles' Playtest Packet",
-    "version": "0.4",
+    "version": "0.4.1",
     "compatibility": {
         "minimum": "12",
         "verified": "12.331"
